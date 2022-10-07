@@ -15,5 +15,3 @@
 8 - Mudar o icon da página
 
 9 - Terminar de fazer as animações
-
-10 - 
