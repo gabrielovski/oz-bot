@@ -30,7 +30,9 @@ body {
     height: 50%;
     margin: none;
     padding: 5px;
+    animation: go-back 1s alternate;
 }
+
 
 .menu {
     display: flex;
@@ -75,11 +77,11 @@ a:hover {
 
 @keyframes go-back {
     from {
-        transform: translateX(-100px);
+        transform: translateY(-100px);
         opacity: 0;
     }
     to {
-        transform: translateX(0);
+        transform: translateY(0);
         opacity: 1;
     }
 }
@@ -95,11 +97,11 @@ a:hover {
 
  @keyframes to-back {
     from {
-        transform: translateX(100px);
+        transform: translateY(50px);
         opacity: 0;
     }
     to {
-        transform: translateX(0);
+        transform: translateY(0);
         opacity: 1;
     }
 }
