@@ -1,0 +1,33 @@
+.s1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    gap: 50px;
+    padding-bottom: 45px;
+}
+
+.Logo-Bot {
+    border-radius: 50%;
+    box-shadow:  4px 5px 4px rgba(36, 35, 36, 0.25);
+    width: 200px;
+}
+
+.ctp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px; 
+    text-align: center;
+ }
+ 
+ .s2 {
+    text-align: center;
+ }
+
+ .link-b, button {
+    width: 200px;
+    height: 70px;
+    font-size: 17px;
+ }
