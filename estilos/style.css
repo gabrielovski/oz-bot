@@ -9,7 +9,7 @@
 
 body {
     font-size: 100%;
-    background-image: linear-gradient(68.15deg, rgb(30, 30, 31), rgb(101, 0, 168), rgb(81, 0, 148));
+    background-color: #371585;
 }
 
 .cabeca {
@@ -18,16 +18,24 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 10px;
+    background-color: #212121;
+    text-transform: uppercase;
 }
 
 .logo1 {
-    width: 70px;
-    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border-bottom: 5px;
+    width: 15%;
+    height: 50%;
+    margin: none;
+    padding: 5px;
 }
 
 .menu {
     display: flex;
     gap: 60px;
+    padding: 10px;
 }
 
 a {
@@ -43,23 +51,26 @@ a:hover {
 }
 
 .corpo {
-    border-top: 0.4px solid rgba(255, 251, 251, 0.5);
+    border-top: 0.4px solid rgba(0, 0, 0, 0.5);
     margin-bottom: 48px;
 }
 
 .s1 {
-    display: flex;
+    margin: auto;
+    display: block;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 90px;
+    padding: 0px;
 }
 
 .Logo-Bot {
+    padding-bottom: 50px;
+    margin:auto;
+    display: block;
     border-radius: 50%;
-    box-shadow:  4px 5px 4px rgba(36, 35, 36, 0.25);
-    width: 300px;
-    animation: go-back 2s alternate;
+    width: 350px;
+    animation: go-back 2.3s alternate;
 }
 
 @keyframes go-back {
@@ -79,7 +90,7 @@ a:hover {
     flex-direction: column;
     align-items: center;
     gap: 30px; 
-    animation: to-back 2s alternate;
+    animation: to-back 2.3s alternate;
  }
 
  @keyframes to-back {
@@ -94,10 +105,11 @@ a:hover {
 }
 
 .titulo1 {
-    font-family: 'Righteous', cursive;
+    font-family: 'Sarala', sans-serif;
     color: white;
     font-size: 64px;
-    font-weight: 400;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -117,6 +129,8 @@ h2 {
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
 }
 
 .link-b, button:hover {
@@ -130,7 +144,7 @@ h2 {
     align-items: center;
     justify-content: center;
     gap: 24px;
-    margin-top: 45px;
+    margin-top: 50px;
 }
 
 h3 {

@@ -6,7 +6,14 @@
 
 4 - Terminar de fazer a aba de status
 
-5 - Fazer um easter egg com um link no footer no nome Oz Maluco e ele redirecionar
-para uma página com as informações da equipe Oz Maluco
+5 - Terminar de fazer a página da equipe Oz Maluco
 
 6 - Deixar o site mais bonito (mudar fonte, foto e etc)
+
+7 - Criar a arte do robô
+
+8 - Mudar o icon da página
+
+9 - Terminar de fazer as animações
+
+10 - 
