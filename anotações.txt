@@ -8,3 +8,5 @@
 
 5 - Fazer um easter egg com um link no footer no nome Oz Maluco e ele redirecionar
 para uma página com as informações da equipe Oz Maluco
+
+6 - Deixar o site mais bonito (mudar fonte, foto e etc)
