@@ -1,0 +1,10 @@
+1 - Colocar o footer no sobre
+
+2 - Criar um menu (3 risquinhos) para o site todo no mobile 
+
+3 - Arrumar o texto no sobre (mobile)
+
+4 - Terminar de fazer a aba de status
+
+5 - Fazer um easter egg com um link no footer no nome Oz Maluco e ele redirecionar
+para uma página com as informações da equipe Oz Maluco
