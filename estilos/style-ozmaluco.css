@@ -10,7 +10,7 @@
 
 body {
     font-size: 100%;
-    background-image: linear-gradient(68.15deg, rgb(30, 30, 31), rgb(101, 0, 168), rgb(81, 0, 148));
+    background-color: #371585;
     background-attachment: fixed;
 }
 
@@ -18,19 +18,16 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     padding: 10px;
-}
-
-.link-img,
-.logo1 {
-    width: 70px;
-    border-radius: 50%;
+    background-color: #212121;
+    text-transform: uppercase;
 }
 
 .menu {
     display: flex;
-    gap: 60px;
+    padding: 10px;
+    gap: 60px
 }
 
 .ctp-m {
@@ -46,10 +43,10 @@ body {
 }
 
 .corpo {
-    border-top: 0.4px solid rgba(255, 251, 251, 0.5);
+    border-top: 0.4px solid black;
     margin-bottom: 48px;
     padding: 110px;
-    padding-bottom: 95px;
+    padding-bottom: 110px;
     padding-top: 20px;
 }
 
@@ -78,17 +75,12 @@ p {
 }
 
 .Pe {
+    background-color: #212121;
     padding: 32px;
-    border-top: 0.4px solid rgba(255, 251, 251, 0.5);
+    border-top: 0.4px solid rgba(0, 0, 0, 0.5);
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-main p strong {
-    background-color: #41116e;
-    color: rgb(255, 255, 255);
-    border-radius: 4px;
 }
 
 footer a {
