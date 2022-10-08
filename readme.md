@@ -3,11 +3,13 @@
 </h1>
 
 <div align="center">
-  ![GitHub repo size](https://img.shields.io/github/repo-size/gabrielovski/oz-bot?style=for-the-badge)
-  ![GitHub language count](https://img.shields.io/github/languages/count/gabrielovski/oz-bot?style=for-the-badge)
+  <img src="https://img.shields.io/github/repo-size/gabrielovski/oz-bot?style=for-the-badge">
+  <img src="https://img.shields.io/github/languages/count/gabrielovski/oz-bot?style=for-the-badge">
 </div>
 
-<img src=".readme/preview.png" alt="exemplo imagem" style="width: 750px;height:650px;">
+<div align="center">
+  <img src=".readme/preview.png" alt="exemplo imagem" style="width: 750px;height:650px;">
+</div>
 
 <h4 align="center">
   Site de um bot de música para discord feito por um grupo de amigos.<br>
