@@ -3,12 +3,14 @@
 </h1>
 
 <div align="center">
+  <a href="https://github.com/gabrielovski/oz-bot">
   <img src="https://img.shields.io/github/repo-size/gabrielovski/oz-bot?style=for-the-badge">
   <img src="https://img.shields.io/github/languages/count/gabrielovski/oz-bot?style=for-the-badge">
 </div>
 <br>
 
 <div align="center">
+  <a href="https://github.com/gabrielovski/oz-bot">
   <img src=".readme/preview.png" alt="exemplo imagem" style="width: 750px;height:650px;">
 </div>
 <br>
