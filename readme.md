@@ -1,5 +1,4 @@
-<h1 align="center">Oz Bot</h1>
-
+# Oz Bot
 
 <img src=".readme/preview.png" alt="preview image">
 
@@ -14,4 +13,3 @@ Bot de música feito para o discord
 - HTML
 - CSS
 - JS
-
