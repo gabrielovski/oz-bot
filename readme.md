@@ -1,5 +1,5 @@
 <h1 align="center">
-  Oz Bot
+  <strong>Oz Bot</strong>
 </h1>
 
 <div align="center">
