@@ -15,7 +15,7 @@
 
 > Site de um bot de música para discord feito por um grupo de amigos.<br>
 Projeto desenvolvido em HTML e CSS.
-<br>
+
 
 ## 🛠️ Ajustes e melhorias
 
