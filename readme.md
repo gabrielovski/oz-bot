@@ -6,15 +6,16 @@
   <img src="https://img.shields.io/github/repo-size/gabrielovski/oz-bot?style=for-the-badge">
   <img src="https://img.shields.io/github/languages/count/gabrielovski/oz-bot?style=for-the-badge">
 </div>
+<br>
 
 <div align="center">
   <img src=".readme/preview.png" alt="exemplo imagem" style="width: 750px;height:650px;">
 </div>
+<br>
 
-<h4 align="center">
-  Site de um bot de música para discord feito por um grupo de amigos.<br>
-  Projeto desenvolvido em HTML e CSS.
-</h4>
+> Site de um bot de música para discord feito por um grupo de amigos.<br>
+Projeto desenvolvido em HTML e CSS.
+<br>
 
 ## 🛠️ Ajustes e melhorias
 
