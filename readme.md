@@ -5,10 +5,7 @@
 
 <img src=".readme/preview.png" alt="exemplo imagem" style="width: 750px;height:650px;">
 
-<br>
-
 > Site de um bot de música para discord feito por um grupo de amigos.<br>
-<br>
 Projeto desenvolvido em HTML e CSS.
 
 <br>
