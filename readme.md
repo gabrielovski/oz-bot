@@ -12,4 +12,3 @@ Bot de música feito para o discord
 
 - HTML
 - CSS
-- JS
