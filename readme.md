@@ -4,7 +4,7 @@
 
 > Sobre
 
-Bot de música feito para o discord
+Site de um bot de música feito para o discord.
 
 [🔗 Clique aqui para acessar](https://gabrielovski.github.io/oz-bot/)
 
