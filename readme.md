@@ -1,6 +1,6 @@
 # Oz Bot
 
-<img src=".readme/preview.png" alt="preview image" style="width: 700px;height:700px">
+<img src=".readme/preview.png" alt="preview image" style="width: 800px;height:700px">
 
 > Sobre
 
