@@ -6,7 +6,7 @@
 
 Site de um bot de música feito para o discord.
 
-<a href="https://gabrielovski.github.io/oz-bot/" target="_blank" style="width: 800px">🔗 Clique aqui para acessar</a>
+<a href="https://gabrielovski.github.io/oz-bot/" target="_blank" style="width: 700px; height: 700px">🔗 Clique aqui para acessar</a>
 
 ## 🛠 Tecnologias
 
