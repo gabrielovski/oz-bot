@@ -1,7 +1,7 @@
 <h1 align="center">Oz Bot</h1>
 
 
-<img src=".readme/preview.png" style="width: 500px; align:center;">
+<img src=".readme/preview.png" alt="preview image">
 
 > Sobre
 
