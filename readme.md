@@ -66,4 +66,4 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   </tr>
 </table>
 
-[⬆ Voltar ao topo](#oz-bot)<br>
+[⬆ Voltar ao topo](#readme)<br>
