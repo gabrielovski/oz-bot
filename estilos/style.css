@@ -49,7 +49,7 @@ a {
 }
 
 a:hover {
-    color: rgb(168, 168, 168);   
+    color: rgb(168, 168, 168);
 }
 
 .corpo {
@@ -68,7 +68,7 @@ a:hover {
 
 .Logo-Bot {
     padding-bottom: 50px;
-    margin:auto;
+    margin: auto;
     display: block;
     border-radius: 50%;
     width: 350px;
@@ -80,6 +80,7 @@ a:hover {
         transform: translateY(-100px);
         opacity: 0;
     }
+
     to {
         transform: translateY(0);
         opacity: 1;
@@ -87,19 +88,20 @@ a:hover {
 }
 
 
- .ctp {
+.ctp {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px; 
+    gap: 30px;
     animation: to-back 2.3s alternate;
- }
+}
 
- @keyframes to-back {
+@keyframes to-back {
     from {
         transform: translateY(50px);
         opacity: 0;
     }
+
     to {
         transform: translateY(0);
         opacity: 1;
@@ -121,13 +123,14 @@ h2 {
     color: white
 }
 
-.link-b, button {
+.link-b,
+button {
     background-color: rgb(245, 235, 242);
     width: 180px;
     height: 60px;
     border-radius: 40px;
     border: none;
-    box-shadow:  4px 5px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -135,7 +138,8 @@ h2 {
     text-transform: uppercase;
 }
 
-.link-b, button:hover {
+.link-b,
+button:hover {
     background-color: rgb(167, 164, 166);
 }
 
@@ -174,4 +178,3 @@ p {
     align-items: center;
     justify-content: center;
 }
-

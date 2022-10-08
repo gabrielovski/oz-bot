@@ -10,7 +10,7 @@
 
 .Logo-Bot {
     border-radius: 50%;
-    box-shadow:  4px 5px 4px rgba(36, 35, 36, 0.25);
+    box-shadow: 4px 5px 4px rgba(36, 35, 36, 0.25);
     width: 200px;
 }
 
@@ -18,16 +18,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px; 
+    gap: 30px;
     text-align: center;
- }
- 
- .s2 {
-    text-align: center;
- }
+}
 
- .link-b, button {
+.s2 {
+    text-align: center;
+}
+
+.link-b,
+button {
     width: 200px;
     height: 70px;
     font-size: 17px;
- }
+}

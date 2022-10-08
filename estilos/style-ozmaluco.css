@@ -22,7 +22,8 @@ body {
     padding: 10px;
 }
 
-.link-img, .logo1 {
+.link-img,
+.logo1 {
     width: 70px;
     border-radius: 50%;
 }
@@ -41,7 +42,7 @@ body {
 }
 
 .ctp-m:hover {
-    color: rgb(168, 168, 168);   
+    color: rgb(168, 168, 168);
 }
 
 .corpo {
@@ -84,7 +85,7 @@ p {
     justify-content: center;
 }
 
-main p strong  {
+main p strong {
     background-color: #41116e;
     color: rgb(255, 255, 255);
     border-radius: 4px;
