@@ -1,4 +1,6 @@
-# Oz Bot
+<h1 align="center">
+  Oz Bot
+</h1>
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/gabrielovski/oz-bot?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/gabrielovski/oz-bot?style=for-the-badge)
