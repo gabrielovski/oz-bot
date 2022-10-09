@@ -44,6 +44,8 @@ body {
 .corpo {
     border-top: 0.4px solid black;
     margin-bottom: 48px;
+    padding-bottom: 70px;
+    padding-top: 40px;
 }
 
 .s1 {
@@ -120,9 +122,8 @@ a img {
     background-color: #212121;
     padding: 32px;
     border-top: 0.4px solid rgba(0, 0, 0, 0.5);
-    display: flex;
-    align-items: center;
     justify-content: center;
+    border: none;
 }
 
 footer a {
