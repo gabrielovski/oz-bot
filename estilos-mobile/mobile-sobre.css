@@ -1,14 +1,9 @@
 .s1 {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.div-s1 {
-    padding-right: 0px;
-    align-items: center;
+    text-align: center;
     justify-content: center;
-    width: 500px;
-    border: none;
-    padding-top: 40px;
+    flex-direction: column;
+    padding-right: 5px;
+    padding-left: 40px;
+    gap: 20px;
+    width: 90vw;
 }
