@@ -23,11 +23,11 @@ Projeto desenvolvido em HTML e CSS.
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [x] Fazer a página do Oz Maluco (Falta terminar)
-- [x] Estilizar o resto do site
+- [x] Mudança total do site (novas fontes, cores e etc...)
+- [ ] Fazer a página do Oz Maluco
 - [ ] Terminar de fazer a versão mobile
-- [ ] Fazer mais animações no site
-- [ ] Criar um menu na versão mobile
+- [ ] Fazer mais animações
+- [ ] Criar um menu (3 risquinhos) na versão mobile
 - [ ] Terminar a aba de status
 
 ## 🤝 Colaboradores
