@@ -215,6 +215,22 @@ body::-webkit-scrollbar-thumb {
     .Pe {
         padding: 3vw;
     }
+
+    body::-webkit-scrollbar {
+        width: 3px;
+        height: 10px;
+        background-color: #212121;
+    }
+    
+    body::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: #212121;
+    }
+    
+    body::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: rgb(255 255 255 / 10%);
+    }
 }
 
 @media (max-width: 500px) {
@@ -222,5 +238,21 @@ body::-webkit-scrollbar-thumb {
         width: 40vw;
         display: block;
         align-items: center;
+    }
+
+    body::-webkit-scrollbar {
+        width: 2px;
+        height: 10px;
+        background-color: #212121;
+    }
+    
+    body::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: #212121;
+    }
+    
+    body::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: rgb(255 255 255 / 10%);
     }
 }
