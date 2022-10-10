@@ -130,7 +130,6 @@ footer a:hover {
 @media (max-width: 500px) {
     
     .menu {
-        width: 150vw;
         text-align: center;
         align-items: center;
         padding: 0.8vw;
