@@ -194,3 +194,33 @@ body::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background-color: rgb(255 255 255 / 10%);
 }
+
+@media (max-width: 900px) {
+    
+    .corpo {
+        align-items: center;
+        text-align: center;
+    }
+    
+    .logo1 {
+        width: 40vw;
+        display: block;
+        align-items: center;
+    }
+
+    .s2 {
+        text-align: center;
+    }
+
+    .Pe {
+        padding: 3vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .logo1 {
+        width: 40vw;
+        display: block;
+        align-items: center;
+    }
+}
