@@ -172,7 +172,7 @@ p {
 
 .Pe {
     background-color: #212121;
-    padding: 32px;
+    padding: 1.66vw;
     border-top: 0.4px solid rgba(0, 0, 0, 0.5);
     display: flex;
     align-items: center;
