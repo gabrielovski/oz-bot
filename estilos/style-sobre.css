@@ -120,11 +120,11 @@ a img {
 
 .Pe {
     background-color: #212121;
-    padding: 1.65vw;
+    padding: 1.64vw;
     border-top: 0.4px solid rgba(0, 0, 0, 0.5);
-    justify-content: center;
-    border: none;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer a {
