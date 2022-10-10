@@ -179,6 +179,7 @@ body::-webkit-scrollbar-thumb {
 
     .menu {
         text-align: center;
+        align-items: center;
         padding: 1vw;
     }
 
