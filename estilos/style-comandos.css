@@ -136,6 +136,12 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-width: 500px) {
 
+    .menu {
+        justify-content: center;
+        text-align: center;
+        padding: 1vw;
+    }
+
     .cabeca {
         text-align: center;
     }
@@ -146,6 +152,10 @@ body::-webkit-scrollbar-thumb {
 
     .corpo p {
         width: 80vw;
+    }
+
+    .Pe {
+        padding: 4vw;
     }
 
     body::-webkit-scrollbar {

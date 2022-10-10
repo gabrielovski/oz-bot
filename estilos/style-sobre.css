@@ -179,10 +179,15 @@ body::-webkit-scrollbar-thumb {
 
     .menu {
         text-align: center;
+        padding: 1vw;
     }
 
     .div-s1 p {
         width: 80vw;
+    }
+
+    .Pe {
+        padding: 4vw;
     }
 
     body::-webkit-scrollbar {

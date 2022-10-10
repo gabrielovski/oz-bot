@@ -197,6 +197,14 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-width: 900px) {
     
+    .menu {
+        width: 150vw;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5vw;
+    }
+
     .corpo {
         align-items: center;
         text-align: center;
@@ -234,10 +242,26 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 500px) {
+    
+    .menu {
+        width: 100vw;
+        text-align: center;
+        align-items: center;
+        padding: 1vw;
+    }
+    
     .logo1 {
-        width: 40vw;
+        width: 50vw;
         display: block;
         align-items: center;
+    }
+
+    .Logo-Bot {
+        width: 60vw;
+    }
+
+    .Pe {
+        padding: 4vw;
     }
 
     body::-webkit-scrollbar {
