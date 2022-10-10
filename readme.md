@@ -11,7 +11,7 @@
 
 <div align="center">
   <a href="https://github.com/gabrielovski/oz-bot">
-  <img src=".readme/preview.png" alt="exemplo imagem" style="width: 800px;height:700px;">
+  <img src=".readme/preview.png" alt="exemplo imagem" style="width: 1000px;">
 </div>
 <br>
 
