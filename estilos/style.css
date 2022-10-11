@@ -67,12 +67,16 @@ a:hover {
 }
 
 .Logo-Bot {
-    padding-bottom: 50px;
+    
     margin: auto;
     display: block;
     border-radius: 50%;
     width: 350px;
     animation: go-back 2.3s alternate;
+}
+
+.sobre {
+    padding-top: 50px;
 }
 
 @keyframes go-back {

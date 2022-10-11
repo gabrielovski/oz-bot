@@ -70,12 +70,13 @@ p {
     font-family: 'Sarala', sans-serif;
     color: aliceblue;
     text-align: center;
+    padding-bottom: 2vw;
 }
 
 .robo {
     width: 200px;
     border-radius: 50%;
-    padding-top: 20px;
+    
 }
 
 a img {
