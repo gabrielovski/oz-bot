@@ -154,15 +154,12 @@ footer a:hover {
     .s1 {
         text-align: center;
         flex-direction: column;
-        padding-bottom: 5.1vw;
+        padding-bottom: 2vw;
     }
 
     .Pe {
-        padding-bottom: 1vw
-    }
-
-    .Pe p {
-        padding-top: 1.3vw
+        padding-bottom: 2vw;
+        padding-top: 2vw;
     }
 }
 

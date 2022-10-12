@@ -218,6 +218,10 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
 }
 
+.Pe {
+    padding: 2.8vw;
+}
+
 @media (max-width: 500px) {
 
     .cabeca {

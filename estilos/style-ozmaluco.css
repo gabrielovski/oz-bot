@@ -93,47 +93,58 @@ footer a:hover {
 
 @media (max-width: 900px) {
 
-    .menu {
-        width: 150vw;
-        text-align: center;
+    body,
+    html {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .s1 {
         align-items: center;
+        text-align: center;
         justify-content: center;
-        padding: 0.5vw;
     }
 
     .corpo {
-        align-items: center;
-        text-align: center;
+        padding-bottom: 26.1vw;
     }
 
     .Pe {
-        padding: 3vw;
-    }
-
-    body::-webkit-scrollbar {
-        width: 3px;
-        height: 10px;
-        background-color: #212121;
-    }
-
-    body::-webkit-scrollbar-track {
-        border-radius: 10px;
-        background-color: #212121;
-    }
-
-    body::-webkit-scrollbar-thumb {
-        border-radius: 10px;
-        background-color: rgb(255 255 255 / 10%);
+        padding: 2.5vw;
     }
 }
 
 @media (max-width: 500px) {
 
+    .cabeca {
+        flex-direction: column;
+        gap: 3vw;
+    }
+
     .menu {
-        width: 150vw;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
         text-align: center;
         align-items: center;
-        padding: 0.8vw;
+        gap: 5vw;
+    }
+
+    .button-icon,
+    .menu-icon {
+        display: flex;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        margin-left: 42.5vw;
+    }
+
+    .open {
+        display: flex;
+    }
+
+    .s1 {
+        padding-bottom: 24.5vw;
     }
 
     .Pe {

@@ -119,8 +119,12 @@ footer a:hover {
 @media (max-width: 900px) {
     .corpo {
         text-align: center;
-        padding-bottom: 11.8vw;
+        padding-bottom: 10vw;
         padding-top: 10vw
+    }
+
+    .Pe {
+        padding: 2.58vw;
     }
 }
 
@@ -151,6 +155,9 @@ footer a:hover {
 
     .corpo {
         text-align: center;
+        width: 80vw;
+        padding-right: 1vw;
+        padding-left: 10vw;
     }
 
     .open {
@@ -158,7 +165,7 @@ footer a:hover {
     }
 
     .Pe {
-        padding: 4vw;
+        padding: 4.1vw;
     }
 
     body::-webkit-scrollbar {
