@@ -245,6 +245,7 @@ body::-webkit-scrollbar-thumb {
 
     .corpo {
         text-align: center;
+        padding-bottom: 5vw;
     }
 
     .open {
