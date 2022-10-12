@@ -159,7 +159,9 @@ body::-webkit-scrollbar-thumb {
     }
 
     .s1 {
-        padding-bottom: 24.5vw;
+        padding-bottom: 20vw;
+        padding-top: 21vw;
+        text-align: center;
     }
 
     .Pe {
