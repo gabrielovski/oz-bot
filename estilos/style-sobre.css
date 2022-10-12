@@ -126,11 +126,16 @@ a img {
 
 .Pe {
     background-color: #212121;
-    padding: 1.64vw;
+    padding: 0.64vw;
     border-top: 0.4px solid rgba(0, 0, 0, 0.5);
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
+}
+
+.Pe p {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
 }
 
 footer a {
