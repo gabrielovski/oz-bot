@@ -61,7 +61,7 @@ a:hover {
 
 .corpo {
     border-top: 0.4px solid rgba(0, 0, 0, 0.5);
-    margin-bottom: 48px;
+    margin-bottom: 4vw;
 }
 
 .s1 {
@@ -183,7 +183,7 @@ p {
 
 .Pe {
     background-color: #212121;
-    padding: 1.66vw;
+    padding: 1.5vw;
     border-top: 0.4px solid rgba(0, 0, 0, 0.5);
     display: flex;
     align-items: center;
@@ -216,10 +216,6 @@ body::-webkit-scrollbar-thumb {
 
 .corpo {
     text-align: center;
-}
-
-.Pe {
-    padding: 2.8vw;
 }
 
 @media (max-width: 500px) {

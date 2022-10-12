@@ -24,6 +24,11 @@ body {
     text-transform: uppercase;
 }
 
+.button-icon,
+.menu-icon {
+    display: none;
+}
+
 .menu {
     display: flex;
     padding: 10px;
@@ -91,13 +96,23 @@ footer a:hover {
     color: rgb(168, 168, 168);
 }
 
-@media (max-width: 900px) {
+body::-webkit-scrollbar {
+    width: 2px;
+    height: 10px;
+    background-color: #212121;
+}
 
-    body,
-    html {
-        overflow-x: hidden;
-        overflow-y: hidden;
-    }
+body::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #212121;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgb(255 255 255 / 10%);
+}
+
+@media (max-width: 900px) {
 
     .s1 {
         align-items: center;
