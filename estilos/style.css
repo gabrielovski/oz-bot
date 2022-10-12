@@ -14,31 +14,26 @@ body {
 
 .cabeca {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
     padding: 10px;
     background-color: #212121;
     text-transform: uppercase;
 }
 
-.logo1 {
-    display: block;
-    margin: auto;
-    border-bottom: 5px;
-    width: 15%;
-    height: 50%;
-    margin: none;
-    padding: 5px;
-    animation: go-back 1s alternate;
+.button-icon, .menu-icon {
+    display: none;
 }
-
 
 .menu {
     display: flex;
-    gap: 60px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     padding: 10px;
+    gap: 60px;
 }
+
 
 a {
     font-family: 'Sarala', sans-serif;
@@ -50,6 +45,17 @@ a {
 
 a:hover {
     color: rgb(168, 168, 168);
+}
+
+.logo1 {
+    display: block;
+    margin: auto;
+    border-bottom: 5px;
+    width: 15%;
+    height: 50%;
+    margin: none;
+    padding: 5px;
+    animation: go-back 1s alternate;
 }
 
 .corpo {
@@ -128,7 +134,7 @@ h2 {
 }
 
 .link-b,
-button {
+.botao {
     background-color: rgb(245, 235, 242);
     width: 180px;
     height: 60px;
@@ -143,7 +149,7 @@ button {
 }
 
 .link-b,
-button:hover {
+.botao:hover {
     background-color: rgb(167, 164, 166);
 }
 
@@ -200,62 +206,50 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 900px) {
+    .logo1 {
+        width: 25vw;
+        display: block;
+        align-items: center;
+    }   	
+}
+
+    .corpo {
+        text-align: center;
+    }
+
+@media (max-width: 500px) {
+
+    .cabeca {
+        flex-direction: column;
+        gap: 3vw;
+    }
     
     .menu {
-        width: 150vw;
+        display: none;
+        flex-direction: column;
         text-align: center;
         align-items: center;
         justify-content: center;
-        padding: 0.5vw;
+        gap: 5vw;
+    }
+
+    .button-icon, .menu-icon {
+        display: flex;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
     }
 
     .corpo {
-        align-items: center;
         text-align: center;
     }
-    
+
+    .open {
+        display: flex;
+    }
+
     .logo1 {
         width: 40vw;
-        display: block;
-        align-items: center;
-    }
-
-    .s2 {
-        text-align: center;
-    }
-
-    .Pe {
-        padding: 3vw;
-    }
-
-    body::-webkit-scrollbar {
-        width: 3px;
-        height: 10px;
-        background-color: #212121;
-    }
-    
-    body::-webkit-scrollbar-track {
-        border-radius: 10px;
-        background-color: #212121;
-    }
-    
-    body::-webkit-scrollbar-thumb {
-        border-radius: 10px;
-        background-color: rgb(255 255 255 / 10%);
-    }
-}
-
-@media (max-width: 500px) {
-    
-    .menu {
-        width: 100vw;
-        text-align: center;
-        align-items: center;
-        padding: 1vw;
-    }
-    
-    .logo1 {
-        width: 50vw;
         display: block;
         align-items: center;
     }
