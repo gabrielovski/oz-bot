@@ -24,6 +24,11 @@ body {
     text-transform: uppercase;
 }
 
+.button-icon,
+.menu-icon {
+    display: none;
+}
+
 .menu {
     display: flex;
     padding: 10px;
@@ -57,6 +62,19 @@ body {
     align-items: center;
     justify-content: center;
     gap: 24px;
+    animation: go-back 2.3s alternate;
+}
+
+@keyframes go-back {
+    from {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
 
 .titulo {
@@ -99,59 +117,44 @@ footer a:hover {
 }
 
 @media (max-width: 900px) {
-
-    .menu {
+    .corpo {
         text-align: center;
+        padding-bottom: 11.8vw;
+        padding-top: 10vw
     }
-
-    .s1 {
-        text-align: center;
-        flex-direction: column;
-    }
-
-    .titulo {
-        align-items: center;
-    }
-
-    .Pe {
-        padding: 3vw;
-    }
-}
-
-body::-webkit-scrollbar {
-    width: 3px;
-    height: 10px;
-    background-color: #212121;
-}
-
-body::-webkit-scrollbar-track {
-    border-radius: 10px;
-    background-color: #212121;
-}
-
-body::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    background-color: rgb(255 255 255 / 10%);
 }
 
 @media (max-width: 500px) {
 
-    .menu {
-        justify-content: center;
-        text-align: center;
-        padding: 1vw;
-    }
-
     .cabeca {
+        flex-direction: column;
+        gap: 3vw;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 5vw;
+    }
+
+    .button-icon,
+    .menu-icon {
+        display: flex;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        margin-left: 42.5vw;
+    }
+
+    .corpo {
         text-align: center;
     }
 
-    .titulo {
-        width: 80vw;
-    }
-
-    .corpo p {
-        width: 80vw;
+    .open {
+        display: flex;
     }
 
     .Pe {
@@ -173,4 +176,5 @@ body::-webkit-scrollbar-thumb {
         border-radius: 10px;
         background-color: rgb(255 255 255 / 10%);
     }
+
 }

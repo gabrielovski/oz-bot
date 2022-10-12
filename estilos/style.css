@@ -21,7 +21,8 @@ body {
     text-transform: uppercase;
 }
 
-.button-icon, .menu-icon {
+.button-icon,
+.menu-icon {
     display: none;
 }
 
@@ -73,7 +74,7 @@ a:hover {
 }
 
 .Logo-Bot {
-    
+
     margin: auto;
     display: block;
     border-radius: 50%;
@@ -210,12 +211,12 @@ body::-webkit-scrollbar-thumb {
         width: 25vw;
         display: block;
         align-items: center;
-    }   	
+    }
 }
 
-    .corpo {
-        text-align: center;
-    }
+.corpo {
+    text-align: center;
+}
 
 @media (max-width: 500px) {
 
@@ -223,7 +224,7 @@ body::-webkit-scrollbar-thumb {
         flex-direction: column;
         gap: 3vw;
     }
-    
+
     .menu {
         display: none;
         flex-direction: column;
@@ -233,11 +234,13 @@ body::-webkit-scrollbar-thumb {
         gap: 5vw;
     }
 
-    .button-icon, .menu-icon {
+    .button-icon,
+    .menu-icon {
         display: flex;
         background-color: transparent;
         border: none;
         cursor: pointer;
+        margin-left: 42.5vw;
     }
 
     .corpo {
@@ -267,12 +270,12 @@ body::-webkit-scrollbar-thumb {
         height: 10px;
         background-color: #212121;
     }
-    
+
     body::-webkit-scrollbar-track {
         border-radius: 10px;
         background-color: #212121;
     }
-    
+
     body::-webkit-scrollbar-thumb {
         border-radius: 10px;
         background-color: rgb(255 255 255 / 10%);

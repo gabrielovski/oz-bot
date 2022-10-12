@@ -92,7 +92,7 @@ footer a:hover {
 }
 
 @media (max-width: 900px) {
-    
+
     .menu {
         width: 150vw;
         text-align: center;
@@ -115,12 +115,12 @@ footer a:hover {
         height: 10px;
         background-color: #212121;
     }
-    
+
     body::-webkit-scrollbar-track {
         border-radius: 10px;
         background-color: #212121;
     }
-    
+
     body::-webkit-scrollbar-thumb {
         border-radius: 10px;
         background-color: rgb(255 255 255 / 10%);
@@ -128,7 +128,7 @@ footer a:hover {
 }
 
 @media (max-width: 500px) {
-    
+
     .menu {
         width: 150vw;
         text-align: center;
@@ -145,12 +145,12 @@ footer a:hover {
         height: 10px;
         background-color: #212121;
     }
-    
+
     body::-webkit-scrollbar-track {
         border-radius: 10px;
         background-color: #212121;
     }
-    
+
     body::-webkit-scrollbar-thumb {
         border-radius: 10px;
         background-color: rgb(255 255 255 / 10%);

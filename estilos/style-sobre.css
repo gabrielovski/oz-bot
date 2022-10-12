@@ -23,6 +23,11 @@ body {
     text-transform: uppercase;
 }
 
+.button-icon,
+.menu-icon {
+    display: none;
+}
+
 .menu {
     display: flex;
     padding: 10px;
@@ -76,7 +81,7 @@ p {
 .robo {
     width: 200px;
     border-radius: 50%;
-    
+
 }
 
 a img {
@@ -137,7 +142,6 @@ footer a:hover {
 }
 
 @media (max-width: 900px) {
-
     .menu {
         text-align: center;
     }
@@ -145,47 +149,51 @@ footer a:hover {
     .s1 {
         text-align: center;
         flex-direction: column;
-    }
-
-    .div-s1 p {
-        width: 80vw;
-    }
-
-    .titulo {
-        align-items: center;
+        padding-bottom: 5.1vw;
     }
 
     .Pe {
-        padding: 3vw;
+        padding-bottom: 1vw
     }
-}
 
-body::-webkit-scrollbar {
-    width: 3px;
-    height: 10px;
-    background-color: #212121;
-}
-
-body::-webkit-scrollbar-track {
-    border-radius: 10px;
-    background-color: #212121;
-}
-
-body::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    background-color: rgb(255 255 255 / 10%);
+    .Pe p {
+        padding-top: 1.3vw
+    }
 }
 
 @media (max-width: 500px) {
 
-    .menu {
-        text-align: center;
-        align-items: center;
-        padding: 1vw;
+    .cabeca {
+        flex-direction: column;
+        gap: 3vw;
     }
 
-    .div-s1 p {
+    .menu {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5vw;
+    }
+
+    .div-s1 {
         width: 80vw;
+    }
+
+    .button-icon,
+    .menu-icon {
+        display: flex;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        margin-left: 42.5vw;
+    }
+
+    .corpo {
+        text-align: center;
+    }
+
+    .open {
+        display: flex;
     }
 
     .Pe {
@@ -207,4 +215,5 @@ body::-webkit-scrollbar-thumb {
         border-radius: 10px;
         background-color: rgb(255 255 255 / 10%);
     }
+
 }
