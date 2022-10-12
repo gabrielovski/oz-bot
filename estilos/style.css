@@ -263,6 +263,7 @@ body::-webkit-scrollbar-thumb {
 
     .Pe {
         padding: 4vw;
+        display: flex;
     }
 
     body::-webkit-scrollbar {
