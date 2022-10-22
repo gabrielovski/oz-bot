@@ -78,11 +78,22 @@ p {
     padding-bottom: 2vw;
 }
 
-.robo {
-    width: 200px;
-    border-radius: 50%;
-
+/*.botao-comunidade {
+    background-color: rgb(245, 235, 242);
+    width: 350px;
+    height: 45px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
 }
+
+.botao-comunidade:hover {
+    background-color: rgb(167, 164, 166);
+}*/
 
 a img {
     width: 300px;
@@ -120,8 +131,27 @@ a img {
     }
 }
 
-.div-img {
-    padding-top: 70px;
+.widget-discord {
+    margin-top: 50px;
+    border: none;
+    animation: anim-2 2.5 alternate;
+}
+
+.botao-comunidade {
+    background-color: rgb(245, 235, 242);
+    width: 350px;
+    height: 46px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.botao-comunidade:hover {
+    background-color: rgb(167, 164, 166);
 }
 
 .Pe {
