@@ -156,7 +156,7 @@ a img {
 
 .Pe {
     background-color: #212121;
-    padding: 0.64vw;
+    margin-top: 12.9vh;
     border-top: 0.4px solid rgba(0, 0, 0, 0.5);
     display: block;
     align-items: center;
@@ -164,8 +164,8 @@ a img {
 }
 
 .Pe p {
-    padding-top: 1vw;
-    padding-bottom: 1vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 }
 
 footer a {
