@@ -1,203 +1,201 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    outline: none;
-    border: none;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
 }
 
 body {
-    font-size: 100%;
-    background-color: #371585;
-    background-attachment: fixed;
+  font-size: 100%;
+  background-color: #371585;
+  background-attachment: fixed;
 }
 
 .cabeca {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 10px;
-    background-color: #212121;
-    text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #212121;
+  text-transform: uppercase;
 }
 
 .button-icon,
 .menu-icon {
-    display: none;
+  display: none;
 }
 
 .menu {
-    display: flex;
-    padding: 10px;
-    gap: 60px
+  display: flex;
+  padding: 10px;
+  gap: 60px;
 }
 
 .ctp-m {
-    font-family: 'Sarala', sans-serif;
-    color: azure;
-    font-weight: 400;
-    font-size: 18px;
-    cursor: pointer;
+  font-family: "Sarala", sans-serif;
+  color: azure;
+  font-weight: 400;
+  font-size: 18px;
+  cursor: pointer;
 }
 
 .ctp-m:hover {
-    color: rgb(168, 168, 168);
+  color: rgb(168, 168, 168);
 }
 
 .corpo {
-    border-top: 0.4px solid black;
-    margin-bottom: 48px;
-    padding: 110px;
-    padding-bottom: 28px;
-    padding-top: 20px;
+  border-top: 0.4px solid black;
+  margin-bottom: 48px;
+  padding: 110px;
+  padding-bottom: 28px;
+  padding-top: 20px;
 }
 
 .s1 {
-    padding: 48px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-    animation: go-back 2.3s alternate;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  animation: go-back 2.3s alternate;
 }
 
 @keyframes go-back {
-    from {
-        transform: translateY(-100px);
-        opacity: 0;
-    }
+  from {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
 
-    to {
-        transform: translateY(0px);
-        opacity: 1;
-    }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
 
 .titulo {
-    padding-top: 48px;
-    color: aliceblue;
-    font-size: 25px;
-    font-weight: 400;
-    font-family: 'Sarala', sans-serif;
-    margin-bottom: 16px;
+  padding-top: 48px;
+  color: aliceblue;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Sarala", sans-serif;
+  margin-bottom: 16px;
 }
 
 p {
-    font-size: 18px;
-    font-weight: 300;
-    font-family: 'Sarala', sans-serif;
-    color: aliceblue;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Sarala", sans-serif;
+  color: aliceblue;
 }
 
 .Pe {
-    background-color: #212121;
-    padding: 1.66vw;
-    border-top: 0.4px solid rgba(0, 0, 0, 0.5);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: #212121;
+  padding: 1.66vw;
+  border-top: 0.4px solid rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 main p strong {
-    background-color: #41116e;
-    color: rgb(255, 255, 255);
-    border-radius: 4px;
+  background-color: #41116e;
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
 }
 
 footer a {
-    color: white;
+  color: white;
 }
 
 footer a:hover {
-    color: rgb(168, 168, 168);
+  color: rgb(168, 168, 168);
 }
 
 body::-webkit-scrollbar {
-    width: 2px;
-    height: 10px;
-    background-color: #212121;
+  width: 2px;
+  height: 10px;
+  background-color: #212121;
 }
 
 body::-webkit-scrollbar-track {
-    border-radius: 10px;
-    background-color: #212121;
+  border-radius: 10px;
+  background-color: #212121;
 }
 
 body::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    background-color: rgb(255 255 255 / 10%);
+  border-radius: 10px;
+  background-color: rgb(255 255 255 / 10%);
 }
 
 @media (max-width: 900px) {
-    .corpo {
-        text-align: center;
-        padding-bottom: 10vw;
-        padding-top: 10vw
-    }
+  .corpo {
+    text-align: center;
+    padding-bottom: 10vw;
+    padding-top: 10vw;
+  }
 
-    .Pe {
-        padding: 2.58vw;
-    }
+  .Pe {
+    padding: 2.58vw;
+  }
 }
 
 @media (max-width: 500px) {
+  .cabeca {
+    flex-direction: column;
+    gap: 3vw;
+  }
 
-    .cabeca {
-        flex-direction: column;
-        gap: 3vw;
-    }
+  .menu {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+  }
 
-    .menu {
-        display: none;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        gap: 5vw;
-    }
+  .button-icon,
+  .menu-icon {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 42.5vw;
+  }
 
-    .button-icon,
-    .menu-icon {
-        display: flex;
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-        margin-left: 42.5vw;
-    }
+  .corpo {
+    text-align: center;
+    width: 80vw;
+    padding-right: 1vw;
+    padding-left: 10vw;
+  }
 
-    .corpo {
-        text-align: center;
-        width: 80vw;
-        padding-right: 1vw;
-        padding-left: 10vw;
-    }
+  .open {
+    display: flex;
+  }
 
-    .open {
-        display: flex;
-    }
+  .Pe {
+    padding: 4.1vw;
+  }
 
-    .Pe {
-        padding: 4.1vw;
-    }
+  body::-webkit-scrollbar {
+    width: 2px;
+    height: 10px;
+    background-color: #212121;
+  }
 
-    body::-webkit-scrollbar {
-        width: 2px;
-        height: 10px;
-        background-color: #212121;
-    }
+  body::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #212121;
+  }
 
-    body::-webkit-scrollbar-track {
-        border-radius: 10px;
-        background-color: #212121;
-    }
-
-    body::-webkit-scrollbar-thumb {
-        border-radius: 10px;
-        background-color: rgb(255 255 255 / 10%);
-    }
-
+  body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgb(255 255 255 / 10%);
+  }
 }

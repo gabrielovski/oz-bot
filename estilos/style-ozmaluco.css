@@ -1,272 +1,272 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    outline: none;
-    border: none;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
 }
 
 body {
-    font-size: 100%;
-    background-color: #371585;
-    background-attachment: fixed;
+  font-size: 100%;
+  background-color: #371585;
+  background-attachment: fixed;
 }
 
 .cabeca {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    background-color: #212121;
-    text-transform: uppercase;
-    max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #212121;
+  text-transform: uppercase;
+  max-width: 100%;
 }
 
 .button-icon,
 .menu-icon {
-    display: none;
+  display: none;
 }
 
 .menu {
-    display: flex;
-    padding: 10px;
-    gap: 60px
+  display: flex;
+  padding: 10px;
+  gap: 60px;
 }
 
 .ctp-m {
-    font-family: 'Sarala', sans-serif;
-    color: azure;
-    font-weight: 400;
-    font-size: 18px;
-    cursor: pointer;
+  font-family: "Sarala", sans-serif;
+  color: azure;
+  font-weight: 400;
+  font-size: 18px;
+  cursor: pointer;
 }
 
 .ctp-m:hover {
-    color: rgb(168, 168, 168);
+  color: rgb(168, 168, 168);
 }
 
 .corpo {
-    border-top: 0.4px solid black;
-    padding-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100%;
-    width: 100%;
+  border-top: 0.4px solid black;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  width: 100%;
 }
 
 .s1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
 }
 
 .titulo {
-    padding-top: 1rem;
-    color: aliceblue;
-    font-size: 25px;
-    font-weight: 400;
-    font-family: 'Sarala', sans-serif;
-    margin-bottom: 4rem;
+  padding-top: 3rem;
+  color: aliceblue;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Sarala", sans-serif;
+  margin-bottom: 4rem;
 }
 
 .boxs {
-    background-color: white;
-    width: 15rem;
-    height: 18rem;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: none;
-    outline: none;
-    border-radius: 15px;
-    gap: 0.6rem;
+  background-color: white;
+  width: 15rem;
+  height: 18rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  gap: 0.6rem;
 }
 
 .boxs:hover {
-    animation: hover-size 1.5s both;
+  animation: hover-size 1s both;
 }
 
 .box1 {
-    animation: to-back 1s alternate;
+  animation: to-back 1s alternate;
 }
 
 .box2 {
-    animation: to-back 2s alternate;
+  animation: to-back 2s alternate;
 }
 
 .box3 {
-    animation: to-back 3s alternate;
+  animation: to-back 3s alternate;
 }
 
 .box4 {
-    animation: to-back 4s alternate;
+  animation: to-back 4s alternate;
 }
 
 @keyframes to-back {
-    from {
-        transform: translateY(80px);
-        opacity: 0;
-    }
+  from {
+    transform: translateY(80px);
+    opacity: 0;
+  }
 
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 @keyframes hover-size {
-    from {
-        transform: translateY(0);
-    }
+  from {
+    transform: translateY(0);
+  }
 
-    to {
-        transform: translateY(-10px);
-        box-shadow: 4px 8px 4px black;
-    }
+  to {
+    transform: translateY(-10px);
+    box-shadow: 4px 8px 4px black;
+  }
 }
 
 .img-box {
-    width: 7.5rem;
-    border-radius: 50%;
+  width: 7.5rem;
+  border-radius: 50%;
 }
 
 .name {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
 }
 
 .descricao-perfil {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
-.area, .discord {
-    color: #585858;
-    font-family: 'Sarala', sans-serif;
-    font-size: 14px;
+.area,
+.discord {
+  color: #585858;
+  font-family: "Sarala", sans-serif;
+  font-size: 14px;
 }
 
 .icons {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    text-decoration: none;
-    gap: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-decoration: none;
+  gap: 1rem;
 }
 
 .img-icon {
-    width: 24px;
-    background: transparent;
+  width: 24px;
+  background: transparent;
 }
 
 .Pe {
-    background-color: #212121;
-    margin-top: 13.9vh;
-    border-top: 0.4px solid rgba(0, 0, 0, 0.5);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: #212121;
+  margin-top: 34.2vh;
+  border-top: 0.4px solid rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
 .Pe p {
-    padding-top: 3.4vh;
-    padding-bottom: 3.4vh;
-    color: white;
-    font-family: 'Sarala', sans-serif;
+  padding-top: 3.4vh;
+  padding-bottom: 3.4vh;
+  color: white;
+  font-family: "Sarala", sans-serif;
 }
 
 body::-webkit-scrollbar {
-    width: 2px;
-    height: 10px;
-    background-color: #212121;
+  width: 2px;
+  height: 10px;
+  background-color: #212121;
 }
 
 body::-webkit-scrollbar-track {
-    border-radius: 10px;
-    background-color: #212121;
+  border-radius: 10px;
+  background-color: #212121;
 }
 
 body::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    background-color: rgb(255 255 255 / 10%);
+  border-radius: 10px;
+  background-color: rgb(255 255 255 / 10%);
 }
 
 @media (max-width: 900px) {
+  .s1 {
+    flex-direction: column;
+  }
 
-    .s1 {
-        flex-direction: column;
-    }
+  .corpo {
+    padding-bottom: 26.1vw;
+  }
 
-    .corpo {
-        padding-bottom: 26.1vw;
-    }
-
-    .Pe {
-        padding: 2.5vw;
-    }
+  .Pe {
+    padding: 2.5vw;
+  }
 }
 
 @media (max-width: 500px) {
+  .cabeca {
+    flex-direction: column;
+    gap: 3vw;
+  }
 
-    .cabeca {
-        flex-direction: column;
-        gap: 3vw;
-    }
+  .menu {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 5vw;
+  }
 
-    .menu {
-        display: none;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        gap: 5vw;
-    }
+  .button-icon,
+  .menu-icon {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 42.5vw;
+  }
 
-    .button-icon,
-    .menu-icon {
-        display: flex;
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-        margin-left: 42.5vw;
-    }
+  .open {
+    display: flex;
+  }
 
-    .open {
-        display: flex;
-    }
+  .s1 {
+    text-align: center;
+    flex-direction: column;
+  }
 
-    .s1 {
-        text-align: center;
-        flex-direction: column;
-    }
+  .Pe {
+    padding: 4vw;
+  }
 
-    .Pe {
-        padding: 4vw;
-    }
+  body::-webkit-scrollbar {
+    width: 2px;
+    height: 10px;
+    background-color: #212121;
+  }
 
-    body::-webkit-scrollbar {
-        width: 2px;
-        height: 10px;
-        background-color: #212121;
-    }
+  body::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #212121;
+  }
 
-    body::-webkit-scrollbar-track {
-        border-radius: 10px;
-        background-color: #212121;
-    }
-
-    body::-webkit-scrollbar-thumb {
-        border-radius: 10px;
-        background-color: rgb(255 255 255 / 10%);
-    }
+  body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgb(255 255 255 / 10%);
+  }
 }
